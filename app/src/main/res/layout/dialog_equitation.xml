@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EQUITATION"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choix de Parcours"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_parcours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_parcours1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parcours 1" />
+
+        <RadioButton
+            android:id="@+id/radio_parcours2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parcours 2" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choix de Plages"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_plages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Week" />
+
+        <RadioButton
+            android:id="@+id/radio_weekend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekend" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>

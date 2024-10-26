@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_equitation"
+        android:title="EQUITATION"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_canot"
+        android:title="CANOT"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_escalade"
+        android:title="ESCALADE"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_facture"
+        android:title="FACTURE"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_quitter"
+        android:title="QUITTER"
+        app:showAsAction="never" />
+
+</menu>

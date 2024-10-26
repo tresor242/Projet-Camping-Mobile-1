@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/et_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/et_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prenom"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_decrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_gravity="center"
+            android:padding="16dp"/>
+
+        <Button
+            android:id="@+id/btn_increment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_date_arrivee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATE ARRIVÉE"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_date_arrivee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XX-XX-XX"
+        android:gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btn_date_depart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATE DÉPART"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_date_depart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XX-XX-XX"
+        android:gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btn_reserver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RÉSERVER"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
